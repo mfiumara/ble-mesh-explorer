@@ -1,0 +1,9 @@
+[submodule "submodules/protobuf-c"]
+	path = submodules/protobuf-c
+	url = https://github.com/protobuf-c/protobuf-c.git
+[submodule "submodules/zephyr"]
+	path = submodules/zephyr
+	url = https://github.com/zephyrproject-rtos/zephyr.git
+[submodule "submodules/protobuf-c-rpc"]
+	path = submodules/protobuf-c-rpc
+	url = https://github.com/protobuf-c/protobuf-c-rpc.git
