@@ -1,0 +1,8 @@
+# Zephyr related folders
+.west
+modules
+tools
+
+# Python virtualenv
+env
+

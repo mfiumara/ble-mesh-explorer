@@ -7,3 +7,12 @@
 [submodule "submodules/protobuf-c-rpc"]
 	path = submodules/protobuf-c-rpc
 	url = https://github.com/protobuf-c/protobuf-c-rpc.git
+[submodule "protobuf-c"]
+	path = protobuf-c
+	url = https://github.com/protobuf-c/protobuf-c.git
+[submodule "protobuf-c-rpc"]
+	path = protobuf-c-rpc
+	url = https://github.com/protobuf-c/protobuf-c-rpc.git
+[submodule "zephyr"]
+	path = zephyr
+	url = https://github.com/zephyrproject-rtos/zephyr.git
