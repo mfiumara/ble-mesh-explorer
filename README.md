@@ -12,3 +12,15 @@ pip install -r zephyr/scripts/requirements.txt
 west init -l zephyr
 west update
 ```
+
+### Build the application
+```
+export ZEPHYR_TOOLCHAIN_VARIANT=native
+west build -b native_posix
+```
+
+### Running the application
+Assuming your bluetooth HCI device is hci0, the following line starts the application:
+```
+./build/zephyr/zephyr.exe --bt-dev=hci0
+```

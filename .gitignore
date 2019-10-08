@@ -1,7 +1,9 @@
-# Zephyr related folders
+# Zephyr and build related folders
 .west
 modules
 tools
+build
+flash.bin
 
 # Python virtualenv
 env
